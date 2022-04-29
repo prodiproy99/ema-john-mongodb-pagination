@@ -11,6 +11,21 @@
 .cart-container{
     background-color: rgba(255, 153, 0, 0.3);
 }
+.pagination button{
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px #aaa;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(182, 180, 180);
+}
+.pagination .selected{
+    background-color: orange;
+    color: #fff;
+}
 @media screen and (max-width:1100px) {
     .products-container{
         grid-template-columns: repeat(2, 1fr);
